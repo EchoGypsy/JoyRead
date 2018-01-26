@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <ImageView
+        android:id="@+id/myFavBookImg"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:paddingLeft="8dp"/>
+    <!-- 定义一个竖直方向的LinearLayout,书名作者显示-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myFavBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="8dp"
+            android:textColor="#1D1D1C"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/myFavBookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingLeft="10dp"
+            android:textColor="#B4B4B9"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">悦读</string>
+    <string name="title_home">首页</string>
+    <string name="title_search">搜索</string>
+    <string name="title_person">我的</string>
+
+    <string name="intro1">
+        在《哈利·波特与魔法石》中，一岁的哈利·波特失去了父母后，便来到了姨妈家，过着极其痛苦的日子。一直到十一岁生日那天，哈利一生的命运才发生了变化，
+        他收到了一封神秘的信，被邀请去一个童话般的地方一一霍格沃茨魔法学校。哈利发现这里到处充满着魔力，他既找到了朋友，又学会了魔法和骑着飞天扫帚打魁地奇，
+        还得到了一件隐形衣，他在这里生活得很愉快。但一块魔法石出现了，它将关系到世界的现在和未来。哈利在好朋友罗恩和赫敏的帮助下，突破了重重困难，保护了魔法石，
+        终于拯救了世界。
+    </string>
+
+    <string-array name="hots">
+        <item>龙族</item>
+        <item>Android开发</item>
+        <item>三毛</item>
+        <item>盗墓笔记</item>
+        <item>林徽因</item>
+        <item>C++</item>
+        <item>哈利·波特</item>
+        <item>鬼吹灯</item>
+        <item>万水千山走遍</item>
+        <item>数据结构</item>
+        <item>南派三叔</item>
+        <item>雨季不再来</item>
+    </string-array>
+</resources>
