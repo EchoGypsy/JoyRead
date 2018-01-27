@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a87395.joyread.LoginActivity"
-    android:background="@drawable/background_login"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:weightSum="1"
+    android:background="@drawable/background_login">
+
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="105dp"
         android:src="@drawable/ic_library_black_24dp"
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"/>
-
     <TextView
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="悦    读"
+        android:text="用户注册"
         android:textSize="30dp"
         android:textColor="#e0ffff"
-        android:layout_marginBottom="80dp"/>
+        android:layout_marginBottom="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +29,6 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/idTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -45,11 +41,10 @@
             android:textColor="#E0FFFF"
             android:textColorHint="#E0FFFF"
             android:textSize="25dp" />
-
         <EditText
-            android:id="@+id/pswTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/txt_shape"
             android:hint="密码"
             android:inputType="textPassword"
@@ -60,27 +55,52 @@
             android:textColor="#E0FFFF"
             android:textColorHint="#E0FFFF"
             android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/txt_shape"
+            android:hint="姓名"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:textColor="#E0FFFF"
+            android:textColorHint="#E0FFFF"
+            android:textSize="25dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/txt_shape"
+            android:hint="身份证号"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:textColor="#E0FFFF"
+            android:textColorHint="#E0FFFF"
+            android:textSize="25dp" />
+
+
+
+
     </LinearLayout>
 
     <Button
-        android:id="@+id/loginBtn"
+        android:layout_gravity="center"
+        android:id="@+id/regBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_shape"
+        android:paddingBottom="10dp"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        android:text="登  录"
-        android:textSize="30dp"
+        android:text="确认注册"
         android:textColor="#e0ffff"
-        android:background="@drawable/btn_shape" />
-    <TextView
-        android:id="@+id/createUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="创建新用户?"/>
-
+        android:textSize="30dp" />
 
 </LinearLayout>

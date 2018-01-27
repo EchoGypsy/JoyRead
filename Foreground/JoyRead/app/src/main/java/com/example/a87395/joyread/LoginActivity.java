@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
@@ -24,7 +25,9 @@ public class LoginActivity extends AppCompatActivity {
         idTxt = (EditText) findViewById(R.id.idTxt);
         pswTxt = (EditText) findViewById(R.id.pswTxt);
         Button loginBtn = (Button) findViewById(R.id.loginBtn);
+        TextView addUser = (TextView) findViewById(R.id.createUser);
         loginBtn.setOnClickListener(new LoginListener());
+        addUser.setOnClickListener(new AddUserListener());
     }
 
 
@@ -40,6 +43,15 @@ public class LoginActivity extends AppCompatActivity {
             } else {
                 Toast.makeText(LoginActivity.this, "用户名或密码错误", Toast.LENGTH_SHORT).show();
             }
+        }
+    }
+
+    class AddUserListener implements View.OnClickListener {
+
+        @Override
+        public void onClick(View view) {
+            Intent intentAddUser = new Intent(LoginActivity.this,RegisterActivity.class);
+            startActivity(intentAddUser);
         }
     }
 

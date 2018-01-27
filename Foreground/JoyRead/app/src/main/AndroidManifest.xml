@@ -32,6 +32,7 @@
             android:name=".BorrowHistoryActivity"
             android:label="借阅历史" />
         <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
