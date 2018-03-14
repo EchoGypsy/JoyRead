@@ -1,4 +1,4 @@
-package com.example.a87395.joyread.tools;
+package com.edu.joyread.activity.tools;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

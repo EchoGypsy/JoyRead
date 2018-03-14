@@ -1,4 +1,4 @@
-package com.example.a87395.joyread;
+package com.edu.joyread.activity;
 
 import android.app.FragmentTransaction;
 import android.content.Intent;
@@ -8,8 +8,6 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 

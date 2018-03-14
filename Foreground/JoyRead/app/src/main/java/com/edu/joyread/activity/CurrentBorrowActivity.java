@@ -1,11 +1,11 @@
-package com.example.a87395.joyread;
+package com.edu.joyread.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.example.a87395.joyread.tools.DateOperator;
+import com.edu.joyread.activity.tools.DateOperator;
 
 import java.sql.Date;
 import java.text.ParseException;

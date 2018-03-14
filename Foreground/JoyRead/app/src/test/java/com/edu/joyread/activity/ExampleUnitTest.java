@@ -1,4 +1,4 @@
-package com.example.a87395.joyread;
+package com.edu.joyread.activity;
 
 import org.junit.Test;
 

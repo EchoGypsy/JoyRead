@@ -1,4 +1,7 @@
 <resources>
+
+    <string name="serverURL">10.0.2.2</string>
+
     <string name="app_name">悦读</string>
     <string name="title_home">首页</string>
     <string name="title_search">搜索</string>

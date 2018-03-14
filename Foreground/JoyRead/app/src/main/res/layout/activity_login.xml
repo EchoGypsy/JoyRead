@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a87395.joyread.LoginActivity"
+    tools:context="com.edu.joyread.activity.LoginActivity"
     android:background="@drawable/background_login"
     android:orientation="vertical"
     android:gravity="center">
@@ -80,7 +80,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="创建新用户?"/>
+        android:textColor="#e0ffff"
+        android:text="创建新用户"/>
 
 
 </LinearLayout>

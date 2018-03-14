@@ -1,4 +1,4 @@
-package com.example.a87395.joyread;
+package com.edu.joyread.activity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

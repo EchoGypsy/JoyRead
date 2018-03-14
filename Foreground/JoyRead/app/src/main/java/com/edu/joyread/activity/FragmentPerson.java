@@ -1,4 +1,4 @@
-package com.example.a87395.joyread;
+package com.edu.joyread.activity;
 
 /**
  * Created by 87395 on 2017/8/8.
@@ -6,7 +6,6 @@ package com.example.a87395.joyread;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
-import android.app.job.JobInfo;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -17,21 +16,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import junit.framework.Assert;
-import android.net.wifi.WifiManager.MulticastLock;
-import android.os.Bundle;
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
-import android.content.DialogInterface.OnMultiChoiceClickListener;
-import android.view.Menu;
-import android.view.MenuItem.OnMenuItemClickListener;
-import android.view.View;
-import android.widget.AbsListView.MultiChoiceModeListener;
-import android.widget.Toast;
-import android.content.SharedPreferences;
 
 
 //import com.lin.coursetwo.R;
