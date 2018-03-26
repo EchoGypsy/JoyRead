@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Background/src/main/java/com/joyread/dao/Stu.xml&apos; to &apos;StuDao.xml&apos;" description="Rename resource &apos;Stu.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/joyread/dao/Stu.xml" name="StuDao.xml" stamp="1521648138218" updateReferences="true"/>
-</session>
